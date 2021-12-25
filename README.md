@@ -10,6 +10,9 @@ The selection must be executable Python code. You cannot run it on just
 `if True:` for example, in that case you would have to at least include the
 first line under the condition (or `...` / `pass`) to make it valid Python.
 
+*Note: C version is for fun. It most certainly has memory leaks somewhere, and
+is not optimized, etc. Use Python version.*
+
 To run `black_selection`:
 ```shell
 python3 black_selection.py /path/to/black file.py start_line end_line
